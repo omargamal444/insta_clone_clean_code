@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "22469259197",
+    "project_id": "flutter-4661a",
+    "storage_bucket": "flutter-4661a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22469259197:android:f088f84f1bf5c4738d2cd4",
+        "android_client_info": {
+          "package_name": "com.example.firee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22469259197-socpk0fhujaoe6chj536hp6hbide0avm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firee",
+            "certificate_hash": "2b6586fdd296db15f978d5eedcdcafe8ac740c69"
+          }
+        },
+        {
+          "client_id": "22469259197-4891tfn5l11f0e9rt3e8h846jdgv8rut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-K8upFjb17G7rNCizcFgKXaya82Vet3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22469259197-4891tfn5l11f0e9rt3e8h846jdgv8rut.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22469259197-fh8j80vlv1r0i04sd3aesrjtjcs0fpqn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firee.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22469259197:android:0723eb7d7895922d8d2cd4",
+        "android_client_info": {
+          "package_name": "com.example.insta_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22469259197-4891tfn5l11f0e9rt3e8h846jdgv8rut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-K8upFjb17G7rNCizcFgKXaya82Vet3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22469259197-4891tfn5l11f0e9rt3e8h846jdgv8rut.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22469259197-fh8j80vlv1r0i04sd3aesrjtjcs0fpqn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firee.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
