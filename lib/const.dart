@@ -16,6 +16,7 @@ class Routes {
 }
 
 class FirebaseConst {
+  static const postNumber="postNumber";
   static const userCollection = "User";
   static const postCollection="post";
   static const email="email";
@@ -38,6 +39,16 @@ class FirebaseConst {
   static const likeNumber="likeNumber";
   static const postId="postId";
   static const creatorId="creatorId";
+  static const commentatorName="commentatorName";
+  static const commentatorProfileImageUrl="commentatorProfileImageUrl";
+  static const commentId="commentId";
+  static const commentatorUid="commentatorUid";
+  static const commentDescription="commentDescription";
+  static const commentCollection="comment";
+  static const mainCommentId="mainCommentId";
+  static const isMainComment="isMainComment";
+ static const subComments="subComments";
+
 }
 
 

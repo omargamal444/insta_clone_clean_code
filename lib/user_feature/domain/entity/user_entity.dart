@@ -4,14 +4,14 @@ class UserEntity{
   String?career;
   List?followers;
   List?following;
-  String?followerNumber;
-  String?followingNumber;
+  int?followerNumber;
+  int?followingNumber;
   String?uid;
   String?userName;
   String?profileUrl;
   String?bio;
   String?password;
-  String?postNumber;
+  int?postNumber;
 
   UserEntity({
       this.name,

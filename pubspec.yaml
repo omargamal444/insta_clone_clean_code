@@ -37,6 +37,8 @@ dependencies:
   cloud_firestore:
   data_connection_checker_tv:
   photo_manager:
+  photo_manager_image_provider:
+  uuid:
   get:
   dio:
   hive:

@@ -27,7 +27,7 @@ class SignUpController extends GetxController {
   bool get isLoading => _isLoading.value;
   SignUpUseCase signUpUseCase = Get.find<SignUpUseCase>();
   CreateUserUsecase createUserUsecase = Get.find<CreateUserUsecase>();
-  AddImageToFireStorageUsecase addImageToFireStorageUsecase =
+  final addImageToFireStorageUsecase =
       Get.find<AddImageToFireStorageUsecase>();
 
   Future signUp() async {
@@ -41,16 +41,17 @@ class SignUpController extends GetxController {
       );
       await signUpUseCase.call(user);
       if (_path.value != "") {
-        final profileImageUrl =
-            await addImageToFireStorageUsecase.call(File(_path.value), false);
+        final profileImageUrl = await addImageToFireStorageUsecase.call(File(_path.value), false);
         user.profileUrl = profileImageUrl;
+      }else {
+        user.profileUrl="";
       }
       Future.delayed(const Duration(seconds: 5));
       await createUserUsecase.call(user);
       _isLoading.value = false;
       Get.offNamed(MainPage.mainPage);
     } on Failure catch (e) {
-      Get.snackbar("message", "${e.errorMessage}");
+      Get.snackbar("message", e.errorMessage.toString());
       _isLoading.value = false;
     }
   }

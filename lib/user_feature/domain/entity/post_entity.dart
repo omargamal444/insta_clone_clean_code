@@ -11,7 +11,7 @@ class PostEntity{
   String?creatorId;
   List? likes;
   String?description;
-  String?commentNumber;
+  int?commentNumber;
 
   PostEntity({
       this.postImageUrl,
